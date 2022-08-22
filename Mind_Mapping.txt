@@ -1,0 +1,33 @@
+01- Create JSON object for questions
+02- Start HTML
+03- Create Dummy Data
+04- Styles
+05- Fetch questions Number Form JSON
+06- Show Question Count + Category
+07- Show Number Of Bullets 
+08- Set The number For The Right and Wrong Ans
+09- Create Countdown Timer
+10- Fetch Question Form JSON object
+11- Show First Question 
+12- Check Answer , Hide Question , show next one 
+13- if Countdown ended, Mark Question as Wrong , Show Next One 
+14- Add Class 'On' Bullet After Answering 
+15- If Questions finished show Result
+
+Ideas 
+01- Many JSON Objects and choose langs
+02- Choose number of questions
+03- Randomies Answers
+
+#Category : 
+-- general knowledge -> 9
+-- computers -> 18
+-- Maths -> 19
+-- History -> 23
+-- Animals -> 27
+-- Vehicles -> 28
+
+#Difficulty :
+-- easy
+-- medium 
+-- hard

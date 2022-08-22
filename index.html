@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ======== CSS ========= -->
+        <link rel="icon" type="image/jpg" href="imgs/logo.jpg">
+        <link rel="stylesheet" href="css/index.css">
+
+        <title>Quiz App</title>
+    </head>
+    <body>
+        <div class="mod"></div>
+        <section class="startQuiz">
+            <h1 class="quizAppIntro">Quiz App</h1>
+            <input type="number" placeholder="Enter Number Of Question [1, 12]" class="q_count">
+            <input type="number" class="count_down" placeholder="Enter Time For Each Question in (seconds)">
+            <select title="Category" name="cat" class="qCatgs" id="category">
+                <option hidden value="">Choose Category</option>
+                <option value="9">General Knowledge</option>
+                <option value="18">Computers</option>
+                <option value="19">Maths</option>
+                <option value="23">History</option>
+                <option value="27">Animals</option>
+                <option value="28">Vehicles</option>
+            </select>
+            <button class="start_quiz">Start</button>
+        </section>
+
+        <section class="quiz_container">
+            <div class="quiz_info">
+                <div class="questions_category">Category:
+                    <span class="defCategory">&lt;&gt;</span>
+                </div>
+                <div class="questions_count">Questions Count:
+                    <span class="count">&lt;&gt;</span>
+                </div>
+            </div>
+
+            <div class="results"></div>
+            <div class="quiz_area"></div>
+            <div class="quiz_answers"></div>
+            <button class="submit_answer">Submit Answer</button>
+            <div class="bullets">
+                <div class="spans"></div>
+                <div class="count_down"></div>
+            </div>
+        </section>
+        <!-- ========== JS ============ -->
+        <script src="js/question.js" type="module"></script>
+        <script src="js/index.js" type="module"></script>
+    </body>
+</html>
